@@ -155,7 +155,7 @@ public class client
 
                                             try
                                             {
-                                                s = new Socket("localhost", 7777);
+                                                s = new Socket("25.81.62.242", 7777);
                                                 dos = new DataOutputStream(s.getOutputStream());
                                                 dis = new DataInputStream(s.getInputStream());
 

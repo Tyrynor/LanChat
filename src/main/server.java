@@ -20,7 +20,7 @@ public class server
         try
         {
             ss = new ServerSocket(7777);
-
+            System.out.println(ss.toString());
             for(int i=0;i<10;i++)
             {
                 users[i] = new user(i+1,ss.accept());
