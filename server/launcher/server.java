@@ -14,6 +14,7 @@ public class server {
     
 	public static void main(String[] args) {
 		try {
+			
 			System.out.println(ServerSocketSingleton.getIntance().toString());
 			
 		} catch (IOException e) {
